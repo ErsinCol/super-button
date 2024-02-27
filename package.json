@@ -1,6 +1,6 @@
 {
   "name": "opti-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a customizable button component with different styles",
   "type": "module",
   "source": "src/Button.js",
