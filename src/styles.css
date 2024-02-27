@@ -1,0 +1,92 @@
+:root {
+    /* BUTTON */
+    --opti-button-content-font-size: 1rem;
+    --opti-button-content-line-height: 1.5rem;
+    --opti-button-padding-block: 0.25rem;
+    --opti-button-padding-inline: 1rem;
+    --opti-button-border-radius: 0.325rem;
+    --opti-button-font-weight: 400;
+    --opti-button-line-width: 1px;
+    --opti-button-line-type: solid;
+    /* DEFAULT */
+    --opti-button-default-bg: #ffffff;
+    --opti-button-default-color: rgba(0,0,0,0.88);
+    --opti-button-default-border-color: #d9d9d9;
+    --opti-button-default-shadow: 0 2px 0 rgba(0,0,0,0.2);
+    --opti-button-default-hover-bg: #ffffff;
+    --opti-button-default-hover-color: #4096ff;
+    --opti-button-default-hover-border-color: #4096ff;
+    /* PRIMARY */
+    --opti-button-primary-bg: #1677ff;
+    --opti-button-primary-color: #ffffff;
+    --opti-button-primary-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+    --opti-button-primary-hover-bg:  #4096ff;
+    /* TEXT */
+    --opti-button-text-color: rgba(0,0,0,0.88);
+    --opti-button-text-hover-bg : rgba(0,0,0,0.06);
+    /* LINK */
+    --opti-button-link-color: #1677ff;
+    --opti-button-link-hover-color: #69b1ff;
+    --opti-button-link-hover-bg: transparent;
+}
+
+.opti-btn {
+    font-size: var(--opti-button-content-font-size);
+    line-height: var(--opti-button-content-line-height);
+    font-weight: var(--opti-button-font-weight);
+    padding: var(--opti-button-padding-block) var(--opti-button-padding-inline);
+    border: var(--opti-button-line-width) var(--opti-button-line-type) transparent;
+    border-radius: var(--opti-button-border-radius);
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    user-select: none;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    background: 0 0;
+}
+
+.opti-btn-primary {
+    background-color: var(--opti-button-primary-bg);
+    color: var(--opti-button-primary-color);
+    box-shadow: var(--opti-button-primary-shadow);
+}
+
+.opti-btn-primary:hover {
+    background-color: var(--opti-button-primary-hover-bg);
+}
+
+.opti-btn-default,
+.opti-btn-dashed {
+    background-color: var(--opti-button-default-bg);
+    color: var(--opti-button-default-color);
+    border-color: var(--opti-button-default-border-color);
+    box-shadow: var(--opti-button-default-shadow);
+}
+
+.opti-btn-dashed {
+    border-style: dashed;
+}
+
+.opti-btn-default:hover,
+.opti-btn-dashed:hover {
+    color: var(--opti-button-default-hover-color);
+    border-color: var(--opti-button-default-hover-border-color) ;
+    background-color: var(--opti-button-default-hover-bg);
+}
+
+.opti-btn-text:hover {
+    color: var(--opti-button-text-color);
+    background-color: var(--opti-button-text-hover-bg);
+}
+
+.opti-btn-link {
+    color: var(--opti-button-link-color);
+}
+
+.opti-btn-link:hover {
+    color: var(--opti-button-link-hover-color);
+    background-color: var(--opti-button-link-hover-bg);
+}
