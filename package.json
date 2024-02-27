@@ -1,7 +1,7 @@
 {
-  "name": "opti-button",
-  "version": "1.0.1",
-  "description": "a customizable button component with different styles",
+  "name": "super-button",
+  "version": "1.0.0",
+  "description": "a customizable Button component with different styles",
   "type": "module",
   "source": "src/Button.js",
   "exports": {
@@ -13,19 +13,18 @@
   "unpkg": "./dist/Button.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErsinCol/opti-button.git"
+    "url": "git+https://github.com/ErsinCol/super-button.git"
   },
   "author": "ErsinCol",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ErsinCol/opti-button/issues"
+    "url": "https://github.com/ErsinCol/super-button/issues"
   },
-  "homepage": "https://github.com/ErsinCol/opti-button#readme",
+  "homepage": "https://github.com/ErsinCol/super-button#readme",
   "peerDependencies": {
     "classnames": "^2.5.1",
     "prop-types": "^15.8.1",
