@@ -2,8 +2,18 @@
   "name": "opti-button",
   "version": "1.0.0",
   "description": "a customizable button component with different styles",
-  "main": "index.js",
+  "type": "module",
+  "source": "src/Button.js",
+  "exports": {
+    "require": "./dist/Button.cjs",
+    "default": "./dist/Button.modern.js"
+  },
+  "main": "./dist/Button.cjs",
+  "module": "./dist/Button.module.js",
+  "unpkg": "./dist/Button.umd.js",
   "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/ErsinCol/opti-button/issues"
   },
-  "homepage": "https://github.com/ErsinCol/opti-button#readme"
+  "homepage": "https://github.com/ErsinCol/opti-button#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
 }
