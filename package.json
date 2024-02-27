@@ -33,5 +33,13 @@
   },
   "devDependencies": {
     "microbundle": "^0.15.1"
-  }
+  },
+  "keywords": [
+    "button",
+    "component",
+    "UI",
+    "frontend",
+    "web",
+    "customizable"
+  ]
 }
