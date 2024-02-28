@@ -6,12 +6,12 @@ import "./styles.css";
 function Button({type, children}) {
     return createElement(
         "button",
-        {className: classNames("opti-btn" , {
-                "opti-btn-primary" : type === "primary",
-                "opti-btn-default" : type === "default",
-                "opti-btn-dashed" : type === "dashed",
-                "opti-btn-text": type === "text",
-                "opti-btn-link": type === "link"
+        {className: classNames("super-btn" , {
+                "super-btn-primary" : type === "primary",
+                "super-btn-default" : type === "default",
+                "super-btn-dashed" : type === "dashed",
+                "super-btn-text": type === "text",
+                "super-btn-link": type === "link"
             })},
         children
     );

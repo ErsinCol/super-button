@@ -1,5 +1,5 @@
 {
-  "name": "super-button",
+  "name": "@ersincol/super-button",
   "version": "1.0.0",
   "description": "a customizable Button component with different styles",
   "type": "module",
