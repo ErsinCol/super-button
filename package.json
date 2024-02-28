@@ -1,6 +1,6 @@
 {
   "name": "@ersincol/super-button",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "a customizable Button component with different styles",
   "type": "module",
   "source": "src/Button.js",
