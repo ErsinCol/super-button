@@ -1,6 +1,5 @@
 <div align="center">
     <h1>Super Button</h1>
-    <hr />
     <p>A customizable Button component with different styles</p>
 </div>
 
