@@ -12,7 +12,7 @@
   "module": "./dist/Button.module.js",
   "unpkg": "./dist/Button.umd.js",
   "scripts": {
-    "build": "microbundle --css-modules true",
+    "build": "microbundle",
     "dev": "microbundle watch"
   },
   "repository": {
