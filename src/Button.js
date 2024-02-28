@@ -1,17 +1,17 @@
 import {createElement} from 'react';
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import "./styles.css";
+import styles from "./styles.css";
 
 function Button({type, children}) {
     return createElement(
         "button",
-        {className: classNames("super-btn" , {
-                "super-btn-primary" : type === "primary",
-                "super-btn-default" : type === "default",
-                "super-btn-dashed" : type === "dashed",
-                "super-btn-text": type === "text",
-                "super-btn-link": type === "link"
+        {className: classNames(styles.superBtn , {
+                [styles.superBtnPrimary] : type === "primary",
+                [styles.superBtnDefault] : type === "default",
+                [styles.superBtnDashed] : type === "dashed",
+                [styles.superBtnText] : type === "text",
+                [styles.superBtnLink] : type === "link"
             })},
         children
     );
